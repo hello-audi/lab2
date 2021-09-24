@@ -34,13 +34,19 @@ input
   padding: 0.4em 0.6em;
 }
 
-@media (min-width: 1025px)
+@media (min-width: 1055px)
 {
 
+label
+{
 
+  display: inline-block;
+}
 
+input
+{
 
-
-
+  display: inline-block;
+}
   
 }
