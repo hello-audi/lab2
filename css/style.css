@@ -1,3 +1,4 @@
+/* Mobile Version */
 html 
 {
  	font-family: 'Poppins', sans-serif;
@@ -7,7 +8,7 @@ html
 
 form
 {
-  font-size: large;
+  font-size: larger;
 }  
 
 h1
@@ -16,13 +17,13 @@ h1
   font-size: 35px;
   font-weight: bold;
   color:#00BFFF;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 
 label
 {
   display: block;
-  margin: 0.6em;
+  margin: 0.5em;
 }
 
 input
@@ -34,19 +35,26 @@ input
   padding: 0.4em 0.6em;
 }
 
-@media (min-width: 1055px)
+ input[type="submit"],
+  input[type="reset"] {
+    width: 4.5em;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+
+/* Desktop Version */
+@media (min-width: 1500px)
 {
 
 label
 {
-
-  display: inline-block;
+  
 }
 
 input
 {
-
   display: inline-block;
 }
-  
+ 
 }
