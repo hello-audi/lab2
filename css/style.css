@@ -22,8 +22,8 @@ h1
 
 legend
 {
-    font-weight: bold;
-   font-size: 23px;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 label
@@ -41,7 +41,7 @@ input
   padding: 0.4em 0.6em;
 }
 
- input[type="submit"],
+  input[type="submit"],
   input[type="reset"] {
     width: 5em;
     margin-top: 15px;
@@ -55,12 +55,13 @@ input
 
 label
 {
-  
+  font-size: 1.5em;
 }
 
 input
 {
   display: inline-block;
+  border: 1px;
 }
  
 }
